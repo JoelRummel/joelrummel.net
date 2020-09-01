@@ -12,14 +12,12 @@
 		<p class="SquareBody">This last summer, I interned at Spencer Manufacturing Inc. as a full-stack software
 			developer. I created a cross-platform app that integrated project management with timekeeping, instant
 			messaging, issue tracking, and more. The app was custom-built for private use throughout the company.</p>
-		<div class="ReadMoreButton"><a href="fullstackapps.php" class="ReadMoreAnchor">Read More >>></a></div>
 	</div>
 	<div id="RoboticsSquare" class="Square">
 		<h2 class="SquareHeader">Robotics</h2>
 		<p class="SquareBody">Making a robot move on its own is easy enough, but making it move in a perfectly straight
 			line certainly isn't. In high school, I served as the lead programmer of our FRC robotics team, programming
 			sensor-based autonomous routines for robots built on omnidirectional drive bases.</p>
-		<div class="ReadMoreButton"><a class="ReadMoreAnchor">Read More >>></a></div>
 	</div>
 	<div id="DataAnalysisSquare" class="Square">
 		<h2 class="SquareHeader">Data Analysis Tools</h2>
@@ -28,7 +26,6 @@
 			first internship at Whirlpool, where I helped develop several data analysis tools for quality analysts and
 			engineers.
 		</p>
-		<div class="ReadMoreButton"><a class="ReadMoreAnchor">Read More >>></a></div>
 	</div>
 	<div id="VideoGamesSquare" class="Square">
 		<h2 class="SquareHeader">Video Games</h2>
@@ -36,7 +33,6 @@
 			participated in a number of competitive "game jams", where participants must develop a video game in a very
 			short time span. Our latest two games, "Liquid Bacon" and "The Empty Cone", earned especially high marks - the
 			former game earning 1st place out of over 25 entries!</p>
-		<div class="ReadMoreButton"><a class="ReadMoreAnchor">Read More >>></a></div>
 	</div>
 </div>
 <div id="BlurbsSection">
