@@ -40,6 +40,10 @@ h1 {
 h1, h2 {
 	font-family: "Catamaran", sans-serif;
 }
+h2 {
+	font-size: 26px;
+	margin-top: 40px;
+}
 .SectionHeader {
 	display: table; /* keep the background color wrapped tight */
 	border-bottom: 5px solid #B50505;
@@ -50,13 +54,22 @@ h1, h2 {
 	padding-left: 40px;
 }
 p {
-	line-height: 25px;
+	line-height: 35px;
 	padding-left: 40px;
 	padding-right: 40px;
+	font-size: 20px;
+	margin-bottom: 60px;
 }
 li {
-	line-height: 25px;
+	line-height: 35px;
 	margin-left: 40px;
+	font-size: 20px;
+}
+ul {
+	margin-bottom: 60px;
+}
+ul ul {
+	margin-bottom: 00px;
 }
 #LandingHeader {
 	
@@ -101,6 +114,10 @@ li {
 .SquareBody {
 	padding-left: 0px;
 	padding-right: 0px;
+	margin-top: 5px;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 10px;
 }
 #FullStackAppsSquare {
 	background-image: linear-gradient(rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 60%), url("images/SpencerAppSquareImage.png");
