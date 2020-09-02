@@ -37,18 +37,18 @@
 </div>
 <div id="BlurbsSection">
 	<div class="BlurbBox">
-		<h2 class="BlurbHeader">No language or framework too big.</h2>
+		<h2 class="SectionHeader">No language or framework too big.</h2>
 		<p class="BlurbBody">I strongly believe that it is important for a programmer to be flexible, in order to be able
 			to use the best tools for the job. In each year of my internships, I have been able to quickly pick up a
 			new framework or technology in order to most efficiently tackle the issue at hand.</p>
 	</div>
 	<div class="BlurbBox">
-		<h2 class="BlurbHeader">Driven by challenge.</h2>
+		<h2 class="SectionHeader">Driven by challenge.</h2>
 		<p class="BlurbBody">The bigger the project, the better. My passion has always lied in creation, no matter the
 			form.</p>
 	</div>
 	<div class="BlurbBox">
-		<h2 class="BlurbHeader">Communication? Not a problem.</h2>
+		<h2 class="SectionHeader">Communication? Not a problem.</h2>
 		<p class="BlurbBody">I have developed strong communication and collaboration skills through my years of teamwork
 			and professional experience in both high school and college. Presentation skills are also a strong point thanks
 			to presenting to multiple Whirlpool vice presidents. I have even been entrusted by each company to continue my
