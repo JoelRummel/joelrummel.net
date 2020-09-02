@@ -14,6 +14,9 @@ body {
 	padding-left: 30px;
 	margin-bottom: 50px;
 }
+#Header h2 {
+	margin-left: 20px;
+}
 #Headshot {
 	border-radius: 50%;
 	width: 100px;
@@ -31,17 +34,29 @@ h1 {
 	border-radius: 20px;
 	padding-left: 25px;
 	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 h1, h2 {
 	font-family: "Catamaran", sans-serif;
 }
 .SectionHeader {
 	display: table; /* keep the background color wrapped tight */
-	border-bottom: 4px solid #B50505;
-	padding-left: 30px;
+	border-bottom: 5px solid #B50505;
+	padding-left: 40px;
+	padding-bottom: 0px;
+}
+.BlurbBody {
+	padding-left: 40px;
 }
 p {
 	line-height: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+li {
+	line-height: 25px;
+	margin-left: 40px;
 }
 #LandingHeader {
 	
@@ -60,12 +75,16 @@ p {
 	min-width: 300px;
 	padding-left: 20px;
 	padding-right: 20px;
+	text-decoration: none;
 	background-color: gray;
 	background-position: center;
 	background-size: cover;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+.Square:visited {
+	color: #e6e6e6;
 }
 .Square:hover {
 	color: #B50505;
@@ -78,6 +97,10 @@ p {
 }
 .SquareHeader {
 	margin-bottom: 0px;
+}
+.SquareBody {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 #FullStackAppsSquare {
 	background-image: linear-gradient(rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 60%), url("images/SpencerAppSquareImage.png");

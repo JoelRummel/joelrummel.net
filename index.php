@@ -7,12 +7,12 @@
 		and professional projects.</p>
 </div>
 <div id="FourSquares">
-	<div id="FullStackAppsSquare" class="Square">
+	<a href="fullstackapps.php" class="Square" id="FullStackAppsSquare">
 		<h2 class="SquareHeader">Full Stack Applications</h2>
 		<p class="SquareBody">This last summer, I interned at Spencer Manufacturing Inc. as a full-stack software
 			developer. I created a cross-platform app that integrated project management with timekeeping, instant
 			messaging, issue tracking, and more. The app was custom-built for private use throughout the company.</p>
-	</div>
+	</a>
 	<div id="RoboticsSquare" class="Square">
 		<h2 class="SquareHeader">Robotics</h2>
 		<p class="SquareBody">Making a robot move on its own is easy enough, but making it move in a perfectly straight

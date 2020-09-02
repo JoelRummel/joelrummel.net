@@ -9,7 +9,7 @@
 <body>
 
 	<div id="Header">
-		<img src="images/Headshot.jpg" id="Headshot" />
-		<h2>Hello this is header</h2>
+		<img src="images/Headshot.png" id="Headshot" />
+		<h2>Joel Rummel</h2>
 	</div>
 	<div id="Content">
