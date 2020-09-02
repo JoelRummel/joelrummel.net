@@ -3,6 +3,13 @@ html {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #e6e6e6;
 }
+a {
+	color: #e6e6e6;
+	text-decoration: underline;
+}
+a :visited {
+	color: #e6e6e6;
+}
 body { 
 	margin: 0;
 }
@@ -25,8 +32,8 @@ body {
 #Content {
 	margin: 0 auto;
 	max-width: 1300px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 h1 {
 	background-color: #B50505;
@@ -80,6 +87,7 @@ ul ul {
 	margin-top: 35px;
 	justify-content: center;
 }
+
 .Square {
 	border-radius: 20px;
 	width: 45%;
@@ -95,9 +103,11 @@ ul ul {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-}
-.Square:visited {
+
 	color: #e6e6e6;
+  	-moz-transition: all .2s;
+  	-webkit-transition: all .2s;
+	transition: all .2s;
 }
 .Square:hover {
 	color: #B50505;
@@ -130,4 +140,11 @@ ul ul {
 }
 #VideoGamesSquare {
 	background-image: linear-gradient(rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.8) 60%), url("images/VideoGames.png");
+}
+.IntroImageWrapper {
+	display: flex;
+	justify-content: center;
+}
+.IntroImage {
+	width: 80%;
 }

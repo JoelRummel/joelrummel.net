@@ -27,13 +27,13 @@
 			engineers.
 		</p>
 	</div>
-	<div id="VideoGamesSquare" class="Square">
+	<a href="videogames.php" id="VideoGamesSquare" class="Square">
 		<h2 class="SquareHeader">Video Games</h2>
-		<p class="SquareBody">In collaboration with my brother <a href="https://alexrummel.com">Alex</a>, I've
+		<p class="SquareBody">In collaboration with my brother Alex, I've
 			participated in a number of competitive "game jams", where participants must develop a video game in a very
 			short time span. Our latest two games, "Liquid Bacon" and "The Empty Cone", earned especially high marks - the
 			former game earning 1st place out of over 25 entries!</p>
-	</div>
+	</a>
 </div>
 <div id="BlurbsSection">
 	<div class="BlurbBox">
@@ -43,16 +43,16 @@
 			new framework or technology in order to most efficiently tackle the issue at hand.</p>
 	</div>
 	<div class="BlurbBox">
-		<h2 class="SectionHeader">Driven by challenge.</h2>
-		<p class="BlurbBody">The bigger the project, the better. My passion has always lied in creation, no matter the
-			form.</p>
+		<h2 class="SectionHeader">Willing to help and be helped.</h2>
+		<p class="BlurbBody">I'm not afraid to ask for support, and I'm also not afraid to give it.
+			I've been continuously mentoring multiple different FRC robotics teams since high school.
+		</p>
 	</div>
 	<div class="BlurbBox">
 		<h2 class="SectionHeader">Communication? Not a problem.</h2>
 		<p class="BlurbBody">I have developed strong communication and collaboration skills through my years of teamwork
-			and professional experience in both high school and college. Presentation skills are also a strong point thanks
-			to presenting to multiple Whirlpool vice presidents. I have even been entrusted by each company to continue my
-			work for them remotely during the school year.</p>
+			and professional experience in both high school and college. I have even been entrusted by each of the
+			companies that I've worked for to continue my work for them remotely during the school year.</p>
 	</div>
 </div>
 

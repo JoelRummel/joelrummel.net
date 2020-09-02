@@ -1,6 +1,9 @@
 <?php require_once("init.php"); ?>
 
 <h1>Cross-platform apps</h1>
+<div class="IntroImageWrapper">
+	<img src="images/SpencerAppSquareImage.png" class="IntroImage" />
+</div>
 <p>Over the summer of 2020, I worked at Spencer Manufacturing, Inc., a custom firetruck manufacturer. They challenged me to create a piece of software that would:</p>
 <ul>
 	<li>Replace their existing timekeeping solution, which was expensive and didn't provide enough detailed insight</li>
@@ -8,10 +11,11 @@
 	<li>Create a coherent and integrated system for issue tracking on each project</li>
 	<li>Provide custom analyses to answer questions such as "which parts of what projects take us longer than expected?"</li>
 </ul>
-<p>So I built an app, "Truck Manager", that does all of this and more.</p>
-<p>Truck Manager is a cross-platform app built with React Native and Expo. This means that it deploys to iOS, Android, and even web browsers. The backend is written in PHP, and is built on a MySQL database.</p>
-<p>In Truck Manager, each project (or "truck") is listed on the home page. And each truck has its own task list, chat room, and issue tracker.</p>
-<p>Each task in the task list can be clocked into, or have an issue reported on it. Supervisors can also mark tasks as completed, which removes them from the list.</p>
+<p>So I built an app, "Truck Manager", that does all of this and more.
+	Truck Manager is a cross-platform app built with React Native and Expo. This means that it deploys to iOS, Android, and even web browsers. The backend is written in PHP, and is built on a MySQL database.</p>
+<h2 class="SectionHeader">Truck Manager Features</h2>
+<p>In Truck Manager, each project (or "truck") is listed on the home page. And each truck has its own task list, chat room, and issue tracker.
+	Each task in the task list can be clocked into, or have an issue reported on it. Supervisors can also mark tasks as completed, which removes them from the list.</p>
 <p>Every element of a truck is integrated with one another, which means that reporting an issue on a task:</p>
 <ul>
 	<li>adds that task to the issue tracker, and</li>
