@@ -10,6 +10,8 @@
 
 	<div id="Header">
 		<img src="images/Headshot.png" id="Headshot" />
-		<h2>Joel Rummel</h2>
+		<a href="/" style="text-decoration: none">
+			<h2>Joel Rummel</h2>
+		</a>
 	</div>
 	<div id="Content">

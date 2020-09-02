@@ -19,14 +19,14 @@
 			line certainly isn't. In high school, I served as the lead programmer of our FRC robotics team, programming
 			sensor-based autonomous routines for robots built on omnidirectional drive bases.</p>
 	</div>
-	<div id="DataAnalysisSquare" class="Square">
+	<a href="dataanalysis.php" id="DataAnalysisSquare" class="Square">
 		<h2 class="SquareHeader">Data Analysis Tools</h2>
 		<p class="SquareBody">While I was a member of my high school's robotics team, I wrote software that interacted
 			with an API to "scout" our opponents and analyze their strengths and weaknesses. This program landed me my
 			first internship at Whirlpool, where I helped develop several data analysis tools for quality analysts and
 			engineers.
 		</p>
-	</div>
+	</a>
 	<a href="videogames.php" id="VideoGamesSquare" class="Square">
 		<h2 class="SquareHeader">Video Games</h2>
 		<p class="SquareBody">In collaboration with my brother Alex, I've
