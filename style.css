@@ -148,3 +148,16 @@ ul ul {
 .IntroImage {
 	width: 80%;
 }
+.Gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 60px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.Gallery img {
+	height: 500px;
+	padding: 2px;
+	margin: 10px auto;
+}

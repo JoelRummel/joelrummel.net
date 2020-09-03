@@ -39,4 +39,11 @@
 	<li>Shared Calendar system that allows tracking of events such as project deadlines and truck delivery dates</li>
 	<li>Restricted "analysis" window that describes which tasks took longer or shorter times than expected to complete, and breaks down who worked for how long on them</li>
 </ul>
+<div class="Gallery">
+	<img src="images/AppGallery1.png" />
+	<img src="images/AppGallery2.png" />
+	<img src="images/AppGallery3.png" />
+	<img src="images/AppGallery4.png" />
+	<img src="images/AppGallery5.png" />
+</div>
 <?php require_once("footer.php"); ?>
