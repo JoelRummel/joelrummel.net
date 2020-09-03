@@ -9,7 +9,7 @@
 <body>
 
 	<div id="Header">
-		<img src="images/Headshot.png" id="Headshot" />
+		<img src="images/HeadshotCropped.jpg" id="Headshot" />
 		<a href="/" style="text-decoration: none">
 			<h2>Joel Rummel</h2>
 		</a>
