@@ -19,10 +19,32 @@ body {
 	display: flex;
 	align-items: center;
 	padding-left: 30px;
-	margin-bottom: 50px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
 }
 #Header h2 {
 	margin-left: 20px;
+	font-size: 30px;
+}
+#NavBar {
+	margin-left: auto;
+	margin-right: 30px;
+}
+.NavTab {
+	display: inline;
+}
+.NavTab:after {
+	display: block;
+	content: '';
+	border-bottom: 5px solid #B50505;
+	transform: scaleX(0);
+	transition: transform 250ms ease-in-out;
+	transform-origin: 100% 50%; 
+}
+.NavTab:hover:after {
+	transform: scaleX(1);
 }
 #Headshot {
 	border-radius: 50%;
@@ -34,6 +56,7 @@ body {
 	max-width: 1300px;
 	padding-left: 15px;
 	padding-right: 15px;
+	margin-top: 165px;
 }
 h1 {
 	background-color: #B50505;
