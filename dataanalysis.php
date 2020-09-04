@@ -2,7 +2,7 @@
 
 <h1>Data Analysis Tools</h1>
 <div class="IntroImageWrapper">
-	<img src="images/DataAnalysis.png" class="IntroImage" style="width: initial; max-height: 350px; max-width: 100%;" />
+	<img src="images/DataAnalysis.png" class="IntroImage" />
 </div>
 
 <p>In my senior year of high school, I wrote a program to "scout" the opponents of our robotics team,
