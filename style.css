@@ -15,7 +15,7 @@ body {
 }
 #Header {
 	background-color: #131313;
-	height: 125px;
+	height: 110px;
 	display: flex;
 	align-items: center;
 	padding-left: 30px;
@@ -86,15 +86,15 @@ body {
 }
 #Headshot {
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 }
 #Content {
 	margin: 0 auto;
 	max-width: 1300px;
 	padding-left: 15px;
 	padding-right: 15px;
-	margin-top: 165px;
+	margin-top: 150px;
 }
 h1 {
 	background-color: #B50505;
