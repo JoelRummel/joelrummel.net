@@ -16,12 +16,28 @@
 			<h2>Joel Rummel</h2>
 		</a>
 		<div id="NavBar">
-			<a class="<?php echo ($page == "/" || $page == "index") ? "NavTabCurrent" : "NavTab" ?>" href="/">
+			<a class="<?php echo ($page == "/" || $page == "index" || $page == "") ? "NavTabCurrent" : "NavTab" ?>" href="/">
 				<h3>About</h3>
 			</a>
-			<a class="<?php echo ($page != "/" && $page != "index") ? "NavTabCurrent" : "NavTab" ?>" href="#">
-				<h3>My Stuff</h3>
-			</a>
+			<div class="NavDropdownWrapper <?php echo ($page == "robotics" || $page == "videogames" || $page == "fullstackapps" || $page == "dataanalysis") ? "NavTabCurrent" : "NavTab" ?>">
+				<a class="NavTabCurrent" href="#" style="margin-left: 0px;">
+					<h3>My Stuff</h3>
+				</a>
+				<div class="NavDropdown">
+					<a class="<?php echo ($page == "fullstackapps") ? "NavTabCurrent" : "NavTab" ?>" href="fullstackapps.php">
+						<h3>Cross Platform Apps</h3>
+					</a>
+					<a class="<?php echo ($page == "robotics") ? "NavTabCurrent" : "NavTab" ?>" href="#">
+						<h3>Robotics</h3>
+					</a>
+					<a class="<?php echo ($page == "dataanalysis") ? "NavTabCurrent" : "NavTab" ?>" href="dataanalysis.php">
+						<h3>Data Analysis Tools</h3>
+					</a>
+					<a class="<?php echo ($page == "videogames") ? "NavTabCurrent" : "NavTab" ?>" href="videogames.php">
+						<h3>Video Games</h3>
+					</a>
+				</div>
+			</div>
 			<a class="<?php echo ($page == "resume") ? "NavTabCurrent" : "NavTab" ?>" href="#">
 				<h3>Resume</h3>
 			</a>

@@ -36,6 +36,32 @@ body {
 	display: flex;
 	flex-direction: row;
 }
+.NavDropdownWrapper {
+	margin-left: 30px;
+}
+.NavDropdown {
+	flex-direction: column;
+	position: absolute;
+	background-color: #131313;
+	width: 200px;
+	right: 120px;
+	padding: 10px;
+	padding-top: 20px;
+	margin-top: 5px;
+	opacity: 0;
+	display: flex;
+	visibility: hidden;
+	transition: all 0.2s;
+}
+.NavDropdownWrapper:hover .NavDropdown {
+	opacity: 1;
+	visibility: visible;
+}
+.NavDropdown .NavTab, .NavDropdown .NavTabCurrent {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+}
 .NavTabCurrent {
 	border-bottom: 5px solid #e6e6e6;
 }
