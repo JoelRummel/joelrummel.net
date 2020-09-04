@@ -23,6 +23,7 @@ body {
 	top: 0;
 	right: 0;
 	left: 0;
+	flex-wrap: wrap;
 }
 #Header h2 {
 	margin-top: 0px;
@@ -35,6 +36,27 @@ body {
 	margin-right: 30px;
 	display: flex;
 	flex-direction: row;
+}
+#Headshot {
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+}
+@media screen and (max-width: 625px) {
+	#Header {
+		padding-left: 0px;
+	}
+	#NavBar {
+		margin-left: 0px;
+		margin-right: 0px;
+		justify-content: center;
+		width: 100%;
+	}
+	#Headshot {
+		width: 55px;
+		height: 55px;
+		margin-left: 10px;
+	}
 }
 .NavDropdownWrapper {
 	margin-left: 30px;
@@ -84,11 +106,6 @@ body {
 .NavTab:hover:after {
 	transform: scaleX(1);
 }
-#Headshot {
-	border-radius: 50%;
-	width: 90px;
-	height: 90px;
-}
 #Content {
 	margin: 0 auto;
 	max-width: 1300px;
@@ -100,7 +117,6 @@ h1 {
 	background-color: #B50505;
 	padding: 5px;
 	border-radius: 20px;
-	padding-left: 25px;
 	text-align: center;
 	margin-left: 40px;
 	margin-right: 40px;
