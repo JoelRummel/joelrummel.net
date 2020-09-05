@@ -28,7 +28,7 @@
 					<a class="<?php echo ($page == "fullstackapps") ? "NavTabCurrent" : "NavTab" ?>" href="fullstackapps.php">
 						<h3>Cross Platform Apps</h3>
 					</a>
-					<a class="<?php echo ($page == "robotics") ? "NavTabCurrent" : "NavTab" ?>" href="#">
+					<a class="<?php echo ($page == "robotics") ? "NavTabCurrent" : "NavTab" ?>" href="robotics.php">
 						<h3>Robotics</h3>
 					</a>
 					<a class="<?php echo ($page == "dataanalysis") ? "NavTabCurrent" : "NavTab" ?>" href="dataanalysis.php">
