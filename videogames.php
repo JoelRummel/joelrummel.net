@@ -19,6 +19,11 @@
 <p>Liquid Bacon was made in GameMaker: Studio and written in GameMaker's proprietary scripting language GML.
 	It was built for Windows. You can download and play the game <a href="#">here</a>.
 </p>
+<div class="Gallery">
+	<img src="images/LiquidBaconGallery3.png" />
+	<img src="images/LiquidBaconGallery1.png" />
+	<img src="images/LiquidBaconGallery2.png" />
+</div>
 <h2 class="SectionHeader">The Empty Cone</h2>
 <p>In March 2020, we participated in the 46th Ludum Dare, creating "The Empty Cone". The theme was "Keep It Alive",
 	so in "The Empty Cone" you must keep your ice cream business alive. That is, both finanically alive from bankruptcy,
