@@ -236,7 +236,10 @@ vertical-align:middle; text-align:center
 	padding-right: 35px;
 }
 .Gallery img {
-	height: 500px;
+	display: block;
+	max-height: 500px;
+	max-width: 100%;
 	padding: 2px;
 	margin: 10px auto;
+	align-self: center;
 }

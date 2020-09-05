@@ -27,5 +27,10 @@
 <p>The Empty Cone was made with Godot and written in Godot's scripting language GDScript. It was built for Windows and
 	for the web, which means you can play it in your browser <a href="#">here</a>.
 </p>
+<div class="Gallery">
+	<img src="images/EmptyConeGallery1.png" />
+	<img src="images/EmptyConeGallery2.png" />
+	<img src="images/EmptyConeGallery3.png" />
+</div>
 
 <?php require_once("footer.php"); ?>
