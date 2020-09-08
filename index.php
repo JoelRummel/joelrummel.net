@@ -1,7 +1,7 @@
 <?php require_once("init.php"); ?>
 
 <div id="LandingHeader">
-	<h1>Hi, my name's Joel Rummel.</h1>
+	<h1>Hi, I'm Joel Rummel.</h1>
 	<p>I'm a Junior studying Computer Science at the University of Michigan. From developing web and mobile apps, to video games,
 		to autonomous robots, I've accumulated a wide range of programming experience. Take a look at some of my personal
 		and professional projects.</p>
@@ -9,7 +9,7 @@
 <div id="FourSquares">
 	<a href="fullstackapps.php" class="Square" id="FullStackAppsSquare">
 		<h2 class="SquareHeader">Cross-Platform Applications</h2>
-		<p class="SquareBody">This last summer, I interned at Spencer Manufacturing Inc. as a full-stack software
+		<p class="SquareBody">Over the 2020 summer, I interned at Spencer Manufacturing Inc. as a full-stack software
 			developer. I created a cross-platform app that integrated project management with timekeeping, instant
 			messaging, issue tracking, and more. The app was custom-built for private use throughout the company.</p>
 	</a>
