@@ -39,7 +39,7 @@
 					</a>
 				</div>
 			</div>
-			<a class="<?php echo ($page == "resume") ? "NavTabCurrent" : "NavTab" ?>" href="#">
+			<a class="<?php echo ($page == "resume") ? "NavTabCurrent" : "NavTab" ?>" href="JoelRummelResumeFall2020.pdf">
 				<h3>Resume</h3>
 			</a>
 		</div>
