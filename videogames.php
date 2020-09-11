@@ -17,7 +17,7 @@
 	fighting off bears, and exploring sketchy warehouses. The game was voted as the winner out of all 26 entries!
 </p>
 <p>Liquid Bacon was made in GameMaker: Studio and written in GameMaker's proprietary scripting language GML.
-	It was built for Windows. You can download and play the game <a href="#">here</a>.
+	It was built for Windows. You can download and play the game <a href="https://forum.yoyogames.com/index.php?threads/gmc-jam-31-xxxi-games.55655/post-337955">here</a>.
 </p>
 <div class="Gallery">
 	<img src="images/LiquidBaconGallery3.png" />
@@ -30,7 +30,7 @@
 	and literally alive from random monster attacks! The game placed in the top 8% out of all entries overall.
 </p>
 <p>The Empty Cone was made with Godot and written in Godot's scripting language GDScript. It was built for Windows and
-	for the web, which means you can play it in your browser <a href="#">here</a>.
+	for the web, which means you can play it in your browser <a href="https://acr515.itch.io/ld46">here</a>.
 </p>
 <div class="Gallery">
 	<img src="images/EmptyConeGallery1.png" />
