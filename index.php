@@ -1,5 +1,11 @@
 <?php require_once("init.php"); ?>
 
+<style>
+	ul li {
+		margin-left: 0px;
+	}
+</style>
+
 <div id="LandingHeader">
 	<h1>Hi, I'm Joel Rummel.</h1>
 	<p>I'm a Junior studying Computer Science at the University of Michigan. From developing web and mobile apps, to video games,
@@ -43,10 +49,10 @@
 			new framework or technology in order to most efficiently tackle the issue at hand.</p>
 	</div>
 	<div class="BlurbBox">
-		<h2 class="SectionHeader">Willing to help and be helped.</h2>
-		<p class="BlurbBody">I'm not afraid to ask for support, and I'm also not afraid to give it.
-			I've been continuously mentoring multiple different FRC robotics teams since high school.
-		</p>
+		<h2 class="SectionHeader">Experienced in all the best ways.</h2>
+		<p class="BlurbBody">I've spent several years working as a part of different fast-paced teams, but I also thrive in
+			autonomous environments with few specific directives. Whether the job is about a small part of a huge program or
+			if it's about tackling a project solo, you can rest assured that I'll be a positive contributor.</p>
 	</div>
 	<div class="BlurbBox">
 		<h2 class="SectionHeader">Communication? Not a problem.</h2>
@@ -55,5 +61,11 @@
 			companies that I've worked for to continue my work for them remotely during the school year.</p>
 	</div>
 </div>
+<h1>Interesting facts</h1>
+<ul>
+	<li>This website is being hosted by a remote Ubuntu server that I configured from scratch</li>
+	<li>Each year since high school I've mentored high school robotics students, helping them learn to write code for robots</li>
+	<li>I played varsity tennis in high school and I continue to play it in college - I can even string rackets!</li>
+</ul>
 
 <?php require_once("footer.php"); ?>
