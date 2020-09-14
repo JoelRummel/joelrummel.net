@@ -155,9 +155,6 @@ ul {
 ul ul {
 	margin-bottom: 00px;
 }
-#LandingHeader {
-	
-}
 #FourSquares {
 	display: flex;
 	flex-wrap: wrap;
@@ -242,4 +239,24 @@ vertical-align:middle; text-align:center
 	padding: 2px;
 	margin: 10px auto;
 	align-self: center;
+}
+#Footer {
+	background-color: #131313;
+	height: 110px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+#Footer p {
+	margin: 0px;
+	font-size: 14px;
+	text-align: center;
+}
+#Footer a img {
+	width: 60px;
+	height: 60px;
+	margin-bottom: -10px;
 }
