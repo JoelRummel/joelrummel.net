@@ -1,5 +1,6 @@
 import { Grid, makeStyles, useTheme, Typography, Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import NAVIGATION_BUTTONS from "../config/navigationButtons";
 import StadiumPose from "../resources/StadiumPose.jpg";
 
 const useStyles = makeStyles((theme) => ({
@@ -87,15 +88,15 @@ const Home = () => {
                         <Typography variant="h4" align="center">I'm a graduating computer scientist from the University of Michigan.</Typography>
                     </Grid>
                     <Grid container justifyContent="center" spacing={2} item xs={12} style={{ paddingBottom: 20 }}>
-                        <Grid item>
-                            <Button component={Link} to="/experiences" variant="contained" color="primary">Experiences</Button>
-                        </Grid>
-                        <Grid item>
-                            <Button component={Link} to="/bio" variant="contained" color="primary">Bio</Button>
-                        </Grid>
-                        <Grid item>
-                            <Button component={Link} to="/resume" variant="contained" color="primary">Resume</Button>
-                        </Grid>
+                        {
+                            NAVIGATION_BUTTONS.map(({ label, to }) => (
+                                <Grid item>
+                                    <Button component={Link} to={to} variant="contained" color="primary">
+                                        {label}
+                                    </Button>
+                                </Grid>
+                            ))
+                        }
                     </Grid>
                 </Grid>
             </Grid>
