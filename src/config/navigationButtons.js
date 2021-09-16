@@ -4,8 +4,8 @@ const NAVIGATION_BUTTONS = [
         to: "/experiences"
     },
     {
-        label: "Bio",
-        to: "/bio"
+        label: "Skills",
+        to: "/skills"
     },
     {
         label: "Resume",
