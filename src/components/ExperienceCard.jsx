@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography } from '@material-ui/core';
+import { Button, Card, CardActions, CardContent, CardMedia, Typography } from '@material-ui/core';
 import ExperienceModal from './ExperienceModal';
 
 const ExperienceCard = ({ experience }) => {
@@ -27,8 +27,8 @@ const ExperienceCard = ({ experience }) => {
                         {shortDescription}
                     </Typography>
                 </CardContent>
-                <CardActions style={{ marginTop: 'auto', alignSelf: 'center' }}>
-                    <Button color="primary" variant="contained" onClick={() => setShowingModal(true)}>
+                <CardActions style={{ marginTop: 'auto', width: '100%' }}>
+                    <Button fullWidth color="primary" variant="contained" onClick={() => setShowingModal(true)}>
                         See More
                     </Button>
                 </CardActions>
