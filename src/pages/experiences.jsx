@@ -19,7 +19,7 @@ const ExperienceList = ({ experiences, header }) => {
     return (
         <>
             <Grid item xs={12}>
-                <Typography variant="h3" align="center">
+                <Typography variant="h3" align="center" style={{ marginTop: 25 }}>
                     {header}
                 </Typography>
             </Grid>

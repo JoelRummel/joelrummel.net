@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { AppBar, Button, IconButton, makeStyles, Menu, MenuItem, Toolbar, Typography, useMediaQuery } from "@material-ui/core";
+import { AppBar, Button, IconButton, makeStyles, Menu, MenuItem, Toolbar, Typography, useMediaQuery, useTheme } from "@material-ui/core";
 import MenuIcon from '@material-ui/icons/Menu';
 import NAVIGATION_BUTTONS from "../config/navigationButtons";
 
@@ -17,11 +17,12 @@ const useStyles = makeStyles((theme) => ({
     },
     navLink: {
         marginRight: theme.spacing(1)
-    }
+    },
 }));
 
 const Navbar = () => {
-    const classes = useStyles();
+    const theme = useTheme();
+    const classes = useStyles(theme);
     const dropdownMenu = useMediaQuery('(max-width: 528px)');
     const [anchorEl, setAnchorEl] = useState(null);
     const menuOpen = Boolean(anchorEl);
@@ -30,7 +31,7 @@ const Navbar = () => {
 
     return (
         <>
-            <AppBar position="fixed">
+            <AppBar position="fixed" color="primary">
                 <Toolbar>
                     {dropdownMenu &&
                         <div>
@@ -63,7 +64,7 @@ const Navbar = () => {
                     {!dropdownMenu && (
                         <>
                             {NAVIGATION_BUTTONS.map(({ label, to }) =>
-                                <Button component={Link} to={to} variant="contained" color="primary" className={classes.navLink}>{label}</Button>
+                                <Button component={Link} to={to} variant="outlined" color="inherit" className={classes.navLink}>{label}</Button>
                             )}
                         </>
                     )}

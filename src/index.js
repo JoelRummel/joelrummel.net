@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { createTheme, CssBaseline, ThemeProvider } from '@material-ui/core';
-import { blue, grey } from '@material-ui/core/colors';
 import Home from './pages/home';
 import Experiences from './pages/experiences';
 import reportWebVitals from './reportWebVitals';
@@ -10,10 +9,13 @@ import reportWebVitals from './reportWebVitals';
 const theme = createTheme({
     palette: {
         primary: {
-            main: blue[800]
+            main: '#243B68'
+        },
+        secondary: {
+            main: '#989262'
         },
         background: {
-            default: grey[300]
+            default: '#B7BDCD'
         }
     }
 });
