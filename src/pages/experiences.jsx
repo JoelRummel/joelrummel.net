@@ -3,6 +3,7 @@ import { Divider, Grid, makeStyles, Typography, useTheme } from "@material-ui/co
 import ExperienceCard from "../components/ExperienceCard";
 import Navbar from "../components/Navbar"
 import WORK_EXPERIENCE from "../data/workExperience";
+import PROJECT_EXPERIENCE from "../data/projectExperience";
 
 const useStyles = makeStyles((theme) => ({
     experienceContainer: {
@@ -11,16 +12,15 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const Experiences = () => {
+const ExperienceList = ({ experiences, header }) => {
     const theme = useTheme();
     const classes = useStyles(theme);
 
     return (
-        <Grid container spacing={2} xs={12} style={{ overflow: "hidden" }}>
-            <Navbar />
+        <>
             <Grid item xs={12}>
                 <Typography variant="h3" align="center">
-                    Work Experience
+                    {header}
                 </Typography>
             </Grid>
             <Grid item xs={12}>
@@ -28,13 +28,23 @@ const Experiences = () => {
             </Grid>
             <Grid container item justifyContent="center" spacing={3} className={classes.experienceContainer}>
                 {
-                    WORK_EXPERIENCE.map(experience => (
+                    experiences.map(experience => (
                         <Grid item style={{ display: 'flex' }}>
                             <ExperienceCard experience={experience} />
                         </Grid>
                     ))
                 }
             </Grid>
+        </>
+    );
+}
+
+const Experiences = () => {
+    return (
+        <Grid container spacing={2} xs={12} style={{ overflow: "hidden" }}>
+            <Navbar />
+            <ExperienceList experiences={WORK_EXPERIENCE} header="Work Experience" />
+            <ExperienceList experiences={PROJECT_EXPERIENCE} header="Projects" />
         </Grid>
     );
 }
