@@ -22,16 +22,29 @@ const WORK_EXPERIENCE = [
                     "Material-UI",
                     "AWS",
                     "Node.js",
+                    "Lambda",
+                    "DynamoDB",
+                    "Amazon Cognito",
                     "Jest",
                     "Cypress"
                 ]
             },
             {
+                label: "Tools",
+                items: [
+                    "Git",
+                    "Bitbucket",
+                    "Jira",
+                    "Figma"
+                ]
+            },
+            {
                 label: "Skills",
                 items: [
-                    "Agile development",
-                    "Full-stack development",
-                    "Automated testing"
+                    "Agile Development",
+                    "Full Stack Development",
+                    "Automated Testing",
+                    "Test-Driven Development"
                 ]
             }
         ]
@@ -48,6 +61,7 @@ const WORK_EXPERIENCE = [
             {
                 label: "Front-end",
                 items: [
+                    "React.js",
                     "React Native",
                     "Expo",
                     "React Native Maps"
@@ -59,6 +73,7 @@ const WORK_EXPERIENCE = [
                     "AWS",
                     "Node.js",
                     "Lambda",
+                    "S3",
                     "API Gateway",
                     "DynamoDB"
                 ]

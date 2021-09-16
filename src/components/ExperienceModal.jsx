@@ -1,5 +1,7 @@
+import React from "react";
 import { Dialog, Typography, useMediaQuery, useTheme } from "@material-ui/core"
 import { makeStyles } from "@material-ui/styles";
+import SkillPill from "./SkillPill";
 
 const useStyles = makeStyles({
     image: {
@@ -23,7 +25,8 @@ const ExperienceModal = ({ experience, open, onClose }) => {
         company,
         jobTitle,
         image,
-        longDescription
+        longDescription,
+        skills
     } = experience;
 
     return (
@@ -32,6 +35,22 @@ const ExperienceModal = ({ experience, open, onClose }) => {
                 <Typography variant="h2">{company}</Typography>
                 <Typography variant="h4" gutterBottom>{jobTitle}</Typography>
                 <img src={image.default} alt={company} className={classes.image} />
+                <div style={{ marginTop: 15, marginBottom: 15 }}>
+                    {
+                        skills.map(skillSet => (
+                            <div>
+                                <Typography display="inline" variant="body2" style={{ fontWeight: 'bold' }}>
+                                    {skillSet.label}:
+                                </Typography>
+                                {
+                                    skillSet.items.map(skill => (
+                                        <SkillPill skill={skill} />
+                                    ))
+                                }
+                            </div>
+                        ))
+                    }
+                </div>
                 <Typography variant="body1" style={{ whiteSpace: 'pre-line' }}>{longDescription}</Typography>
             </div>
         </Dialog>
