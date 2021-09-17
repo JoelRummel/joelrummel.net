@@ -1,9 +1,10 @@
 import React from "react";
-import { Dialog, Typography, useMediaQuery, useTheme } from "@material-ui/core"
+import { Dialog, IconButton, Typography, useMediaQuery, useTheme } from "@material-ui/core"
 import { makeStyles } from "@material-ui/styles";
+import CloseIcon from '@material-ui/icons/Close';
 import SkillPill from "./SkillPill";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
     image: {
         maxWidth: '100%',
         maxHeight: '35vh',
@@ -14,12 +15,18 @@ const useStyles = makeStyles({
         marginTop: 10,
         marginBottom: 10,
         boxShadow: 'gray 0px 5px 8px 3px'
+    },
+    closeButton: {
+        position: 'absolute',
+        right: theme.spacing(1),
+        top: theme.spacing(1),
+        color: theme.palette.grey[500],
     }
-})
+}));
 
 const ExperienceModal = ({ experience, open, onClose }) => {
-    const classes = useStyles();
     const theme = useTheme();
+    const classes = useStyles(theme);
     const fullscreen = useMediaQuery(theme.breakpoints.down('sm'))
     const {
         company,
@@ -53,6 +60,9 @@ const ExperienceModal = ({ experience, open, onClose }) => {
                 </div>
                 <Typography variant="body1" style={{ whiteSpace: 'pre-line' }}>{longDescription}</Typography>
             </div>
+            <IconButton aria-label="close" className={classes.closeButton} onClick={onClose}>
+                <CloseIcon />
+            </IconButton>
         </Dialog>
     );
 }
