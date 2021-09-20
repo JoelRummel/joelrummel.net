@@ -122,6 +122,14 @@ const PROJECT_EXPERIENCE = [
                     "Git",
                     "GitHub",
                 ]
+            },
+            {
+                label: "HIDDEN",
+                items: [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ]
             }
         ]
     }
