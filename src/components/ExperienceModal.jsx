@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Dialog, IconButton, Typography, useMediaQuery, useTheme } from "@material-ui/core"
 import { makeStyles } from "@material-ui/styles";
 import CloseIcon from '@material-ui/icons/Close';
@@ -28,10 +28,17 @@ const defaultExperience = {
     company: '',
     jobTitle: '',
     image: '',
-    shortDescription: ''
+    shortDescription: '',
+    skills: []
 };
 
 const ExperienceModal = ({ experience = defaultExperience, open, onClose }) => {
+    const [cachedExperience, setCachedExperience] = useState(experience);
+
+    useEffect(() => {
+        if (experience.company) setCachedExperience(experience);
+    }, [experience]);
+
     const theme = useTheme();
     const classes = useStyles(theme);
     const fullscreen = useMediaQuery(theme.breakpoints.down('sm'))
@@ -41,9 +48,7 @@ const ExperienceModal = ({ experience = defaultExperience, open, onClose }) => {
         image,
         longDescription,
         skills
-    } = experience;
-
-    if (!company) return [];
+    } = (experience.company ? experience : cachedExperience);
 
     return (
         <Dialog fullScreen={fullscreen} maxWidth="md" fullWidth scroll="body" open={open} onClose={onClose}>
