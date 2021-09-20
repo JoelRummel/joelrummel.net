@@ -46,6 +46,14 @@ const WORK_EXPERIENCE = [
                     "Automated Testing",
                     "Test-Driven Development"
                 ]
+            },
+            {
+                label: "HIDDEN",
+                items: [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ]
             }
         ]
     },
@@ -63,8 +71,7 @@ const WORK_EXPERIENCE = [
                 items: [
                     "React.js",
                     "React Native",
-                    "Expo",
-                    "React Native Maps"
+                    "Expo"
                 ]
             },
             {
@@ -76,6 +83,23 @@ const WORK_EXPERIENCE = [
                     "S3",
                     "API Gateway",
                     "DynamoDB"
+                ]
+            },
+            {
+                label: "Tools",
+                items: [
+                    "Git",
+                    "GitHub",
+                    "Figma"
+                ]
+            },
+            {
+                label: "HIDDEN",
+                items: [
+                    "Full Stack Development",
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
                 ]
             }
         ]
@@ -94,9 +118,24 @@ const WORK_EXPERIENCE = [
                 items: [
                     "React Native",
                     "Expo",
-                    "React Native Web",
                     "PHP",
                     "MySQL"
+                ]
+            },
+            {
+                label: "Tools/skills",
+                items: [
+                    "Git",
+                    "GitHub",
+                    "Full Stack Development"
+                ]
+            },
+            {
+                label: "HIDDEN",
+                items: [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
                 ]
             }
         ]
@@ -115,6 +154,14 @@ const WORK_EXPERIENCE = [
                 items: [
                     "React.js",
                     "Google Apps Script"
+                ]
+            },
+            {
+                label: "HIDDEN",
+                items: [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
                 ]
             }
         ]

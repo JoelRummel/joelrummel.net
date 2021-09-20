@@ -33,7 +33,8 @@ const PROJECT_EXPERIENCE = [
                     "CMake",
                     "Automated Testing",
                     "Google Test",
-                    "Git"
+                    "Git",
+                    "GitHub"
                 ]
             }
         ]
@@ -88,6 +89,38 @@ const PROJECT_EXPERIENCE = [
                     "CSS",
                     "JavaScript",
                     "PHP"
+                ]
+            },
+            {
+                label: "HIDDEN",
+                items: [
+                    "Full Stack Development"
+                ]
+            }
+        ]
+    },
+    {
+        company: "This Website",
+        jobTitle: "joelrummel.net",
+        startDate: "September 2021",
+        image: require('../resources/experiences/thiswebsite.png'),
+        shortDescription: "I wrote this website as a React app and deployed it via AWS Amplify.",
+        longDescription: "Long description here",
+        skills: [
+            {
+                label: "Front-end",
+                items: [
+                    "React.js",
+                    "Material-UI"
+                ]
+            },
+            {
+                label: "Tools",
+                items: [
+                    "AWS",
+                    "Amplify",
+                    "Git",
+                    "GitHub",
                 ]
             }
         ]

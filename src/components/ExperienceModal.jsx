@@ -58,7 +58,7 @@ const ExperienceModal = ({ experience = defaultExperience, open, onClose }) => {
                 <img src={image.default} alt={company} className={classes.image} />
                 <div style={{ marginTop: 15, marginBottom: 15 }}>
                     {
-                        skills.map(skillSet => (
+                        skills.filter(s => s.label !== "HIDDEN").map(skillSet => (
                             <div>
                                 <Typography display="inline" variant="body2" style={{ fontWeight: 'bold' }}>
                                     {skillSet.label}:
