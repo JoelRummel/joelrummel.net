@@ -21,6 +21,24 @@ const theme = createTheme({
         background: {
             default: '#DDD'
         }
+    },
+    typography: {
+        fontFamily: ['Nunito', 'sans-serif'].join(','),
+        h1: {
+            fontFamily: ['Play', 'sans-serif'].join(',')
+        },
+        h2: {
+            fontFamily: ['Play', 'sans-serif'].join(',')
+        },
+        h3: {
+            fontFamily: ['Play', 'sans-serif'].join(',')
+        },
+        h4: {
+            fontFamily: ['Play', 'sans-serif'].join(',')
+        },
+        h5: {
+            fontFamily: ['Play', 'sans-serif'].join(',')
+        }
     }
 });
 

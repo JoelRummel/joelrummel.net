@@ -82,13 +82,13 @@ const Home = () => {
             <Grid item md={7} xs={12}>
                 <Grid container spacing={4} alignContent="center" justifyContent="center" className={classes.contentContainer}>
                     <Grid item xs={12}>
-                        <Typography variant="h1" align="center">Hi, I'm Joel.</Typography>
+                        <Typography variant="h2" align="center">Hi, I'm Joel.</Typography>
                     </Grid>
                     <Grid item xs={12}>
-                        <Typography variant="h5" align="center">
+                        <Typography variant="body1" align="center">
                             I'm a graduating computer scientist from the University of Michigan.
-                            I've got a wide range of experience in software development, from contract
-                            work to Agile teamwork. Find out more about me:
+                            I've got a wide range of experience in full-stack software development, from
+                            web apps to mobile apps. Find out more about me:
                         </Typography>
                     </Grid>
                     <Grid container justifyContent="center" spacing={2} item xs={12} style={{ paddingBottom: 20 }}>
