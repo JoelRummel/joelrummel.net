@@ -1,45 +1,10 @@
 import React, { useState, useRef } from "react";
-import { Divider, Grid, makeStyles, Typography, useTheme } from "@material-ui/core";
-import ExperienceCard from "../components/ExperienceCard";
-import Navbar from "../components/Navbar"
+import { Divider, Grid, Typography } from "@material-ui/core";
 import WORK_EXPERIENCE from "../data/workExperience";
 import PROJECT_EXPERIENCE from "../data/projectExperience";
 import SKILLS_LOOKUP from "../config/skillPills";
 import SkillPill from "../components/SkillPill";
-
-const useStyles = makeStyles((theme) => ({
-    experienceContainer: {
-        marginLeft: theme.spacing(2),
-        marginRight: theme.spacing(2)
-    }
-}));
-
-const ExperienceList = ({ experiences, header }) => {
-    const theme = useTheme();
-    const classes = useStyles(theme);
-
-    return (
-        <>
-            <Grid item xs={12}>
-                <Typography variant="h3" align="center" style={{ marginTop: 25 }}>
-                    {header}
-                </Typography>
-            </Grid>
-            <Grid item xs={12}>
-                <Divider />
-            </Grid>
-            <Grid container item justifyContent="center" spacing={3} className={classes.experienceContainer}>
-                {
-                    experiences.map(experience => (
-                        <Grid item style={{ display: 'flex' }}>
-                            <ExperienceCard experience={experience} />
-                        </Grid>
-                    ))
-                }
-            </Grid>
-        </>
-    );
-}
+import ExperienceCardList from "../components/ExperienceCardList";
 
 const Skills = () => {
     const [selectedSkill, setSelectedSkill] = useState('');
@@ -103,7 +68,7 @@ const Skills = () => {
                     ))
                 }
             </Grid>
-            <ExperienceList experiences={experiences} header="Experiences" />
+            <ExperienceCardList experiences={experiences} header="Experiences" />
             <div ref={headerRef} />
         </Grid>
     );
