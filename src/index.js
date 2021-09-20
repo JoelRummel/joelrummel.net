@@ -38,6 +38,9 @@ const theme = createTheme({
         },
         h5: {
             fontFamily: ['Play', 'sans-serif'].join(',')
+        },
+        h6: {
+            fontFamily: ['Play', 'sans-serif'].join(',')
         }
     }
 });

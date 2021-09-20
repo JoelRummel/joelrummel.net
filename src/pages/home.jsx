@@ -54,8 +54,8 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     contentContainer: {
-        paddingLeft: 10,
-        paddingRight: 10,
+        paddingLeft: 20,
+        paddingRight: 20,
         [theme.breakpoints.up('md')]: {
             height: '100vh'
         }
@@ -80,12 +80,12 @@ const Home = () => {
                 </div>
             </Grid>
             <Grid item md={7} xs={12}>
-                <Grid container spacing={4} alignContent="center" justifyContent="center" className={classes.contentContainer}>
+                <Grid container spacing={3} alignContent="center" justifyContent="center" className={classes.contentContainer}>
                     <Grid item xs={12}>
                         <Typography variant="h2" align="center">Hi, I'm Joel.</Typography>
                     </Grid>
                     <Grid item xs={12}>
-                        <Typography variant="body1" align="center">
+                        <Typography variant="h6" align="center">
                             I'm a graduating computer scientist from the University of Michigan.
                             I've got a wide range of experience in full-stack software development, from
                             web apps to mobile apps. Find out more about me:
@@ -103,7 +103,7 @@ const Home = () => {
                         }
                     </Grid>
                     <Grid item xs={12}>
-                        <Typography align="center">
+                        <Typography align="center" variant="body1">
                             Or you can:
                         </Typography>
                     </Grid>
