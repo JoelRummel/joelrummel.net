@@ -5,6 +5,8 @@ import { createTheme, CssBaseline, ThemeProvider } from '@material-ui/core';
 import Home from './pages/home';
 import Experiences from './pages/experiences';
 import reportWebVitals from './reportWebVitals';
+import Skills from './pages/skills';
+import ScrollToTop from './components/ScrollToTop';
 
 const theme = createTheme({
     palette: {
@@ -15,7 +17,7 @@ const theme = createTheme({
             main: '#989262'
         },
         background: {
-            default: '#B7BDCD'
+            default: '#DDD'
         }
     }
 });
@@ -25,9 +27,13 @@ ReactDOM.render(
         <ThemeProvider theme={theme}>
             <CssBaseline />
             <Router>
+                <ScrollToTop />
                 <Switch>
                     <Route path="/experiences">
                         <Experiences />
+                    </Route>
+                    <Route path="/skills">
+                        <Skills />
                     </Route>
                     <Route path="/">
                         <Home />

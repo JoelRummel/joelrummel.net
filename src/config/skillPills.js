@@ -5,10 +5,10 @@ const SKILLS_LOOKUP = {
     'HTML': { type: 'language', end: 'front' },
     'CSS': { type: 'language', end: 'front' },
     'JavaScript': { type: 'language', end: 'front' },
-    'Node.js': { type: 'language', end: 'back' },
     'PHP': { type: 'language', end: 'back' },
     'React.js': { type: 'tech', end: 'front' },
     'React Native': { type: 'tech', end: 'front' },
+    'Node.js': { type: 'tech', end: 'back' },
     'Google Apps Script': { type: 'tech', end: 'back' },
     'MySQL': { type: 'tech', end: 'back' },
     'AWS': { type: 'tech', end: 'back' },
@@ -37,5 +37,9 @@ const SKILLS_LOOKUP = {
     'Automated Testing': { type: 'skill' },
     'SDLC': { type: 'skill' }
 };
+
+for (const skillName of Object.keys(SKILLS_LOOKUP)) {
+    SKILLS_LOOKUP[skillName].name = skillName;
+}
 
 export default SKILLS_LOOKUP;

@@ -80,12 +80,16 @@ const Home = () => {
                 </div>
             </Grid>
             <Grid item md={7} xs={12}>
-                <Grid container spacing={4} alignContent="center" className={classes.contentContainer}>
+                <Grid container spacing={4} alignContent="center" justifyContent="center" className={classes.contentContainer}>
                     <Grid item xs={12}>
                         <Typography variant="h1" align="center">Hi, I'm Joel.</Typography>
                     </Grid>
                     <Grid item xs={12}>
-                        <Typography variant="h4" align="center">I'm a graduating computer scientist from the University of Michigan.</Typography>
+                        <Typography variant="h5" align="center">
+                            I'm a graduating computer scientist from the University of Michigan.
+                            I've got a wide range of experience in software development, from contract
+                            work to Agile teamwork. Find out more about me:
+                        </Typography>
                     </Grid>
                     <Grid container justifyContent="center" spacing={2} item xs={12} style={{ paddingBottom: 20 }}>
                         {
@@ -97,6 +101,14 @@ const Home = () => {
                                 </Grid>
                             ))
                         }
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Typography align="center">
+                            Or you can:
+                        </Typography>
+                    </Grid>
+                    <Grid item>
+                        <Button variant="contained" color="secondary">Ask me about my thoughts on the state of Ohio</Button>
                     </Grid>
                 </Grid>
             </Grid>

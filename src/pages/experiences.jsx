@@ -41,7 +41,7 @@ const ExperienceList = ({ experiences, header }) => {
 
 const Experiences = () => {
     return (
-        <Grid container spacing={2} xs={12} style={{ overflow: "hidden" }}>
+        <Grid container spacing={2} xs={12}>
             <Navbar />
             <ExperienceList experiences={WORK_EXPERIENCE} header="Work Experience" />
             <ExperienceList experiences={PROJECT_EXPERIENCE} header="Projects" />

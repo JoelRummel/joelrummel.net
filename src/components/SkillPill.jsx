@@ -17,13 +17,20 @@ const skillToColor = (skill) => {
     return 'default';
 }
 
-const SkillPill = ({ skill }) => {
+const SkillPill = ({ skill, outlined, onClick }) => {
     const classes = useStyles();
 
     const color = skillToColor(skill);
 
     return (
-        <Chip label={skill} className={classes.chipStyles} color={color} />
+        <Chip 
+            label={skill} 
+            className={classes.chipStyles} 
+            color={color} 
+            variant={outlined ? 'outlined' : 'default'} 
+            clickable={!!onClick}
+            onClick={onClick}
+        />
     );
 }
 
