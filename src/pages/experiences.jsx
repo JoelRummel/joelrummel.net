@@ -6,7 +6,7 @@ import ExperienceCardList from "../components/ExperienceCardList";
 
 const Experiences = () => {
     return (
-        <Grid container spacing={2} xs={12}>
+        <Grid container spacing={2} xs={12} style={{ paddingLeft: 16 }}>
             <ExperienceCardList experiences={WORK_EXPERIENCE} header="Work Experience" />
             <ExperienceCardList experiences={PROJECT_EXPERIENCE} header="Projects" />
         </Grid>
