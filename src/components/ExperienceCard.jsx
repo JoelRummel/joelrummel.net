@@ -1,9 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from '@material-ui/core';
-import ExperienceModal from './ExperienceModal';
+import { useHistory, useLocation } from 'react-router';
 
-const ExperienceCard = ({ experience }) => {
-    const [showingModal, setShowingModal] = useState(false);
+const defaultExperience = {
+    company: '',
+    jobTitle: '',
+    image: '',
+    shortDescription: ''
+};
+
+const ExperienceCard = ({ experience = defaultExperience }) => {
+    const location = useLocation();
+    const history = useHistory();
 
     const {
         company,
@@ -11,6 +19,10 @@ const ExperienceCard = ({ experience }) => {
         image,
         shortDescription
     } = experience;
+
+    const addQueryParam = () => {
+        history.push({ pathname: location.pathname, search: '?e=' + company });
+    }
 
     return (
         <>
@@ -28,12 +40,11 @@ const ExperienceCard = ({ experience }) => {
                     </Typography>
                 </CardContent>
                 <CardActions style={{ marginTop: 'auto', width: '100%' }}>
-                    <Button fullWidth color="primary" variant="contained" onClick={() => setShowingModal(true)}>
+                    <Button fullWidth color="primary" variant="contained" onClick={addQueryParam}>
                         See More
                     </Button>
                 </CardActions>
             </Card>
-            <ExperienceModal open={showingModal} experience={experience} onClose={() => setShowingModal(false)} />
         </>
     );
 };

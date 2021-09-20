@@ -7,6 +7,7 @@ import Experiences from './pages/experiences';
 import reportWebVitals from './reportWebVitals';
 import Skills from './pages/skills';
 import ScrollToTop from './components/ScrollToTop';
+import ExperienceModalRenderer from './components/ExperienceModalRenderer';
 
 const theme = createTheme({
     palette: {
@@ -39,6 +40,7 @@ ReactDOM.render(
                         <Home />
                     </Route>
                 </Switch>
+                <ExperienceModalRenderer />
             </Router>
         </ThemeProvider>
     </React.StrictMode>,

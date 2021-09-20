@@ -24,7 +24,14 @@ const useStyles = makeStyles(theme => ({
     }
 }));
 
-const ExperienceModal = ({ experience, open, onClose }) => {
+const defaultExperience = {
+    company: '',
+    jobTitle: '',
+    image: '',
+    shortDescription: ''
+};
+
+const ExperienceModal = ({ experience = defaultExperience, open, onClose }) => {
     const theme = useTheme();
     const classes = useStyles(theme);
     const fullscreen = useMediaQuery(theme.breakpoints.down('sm'))
@@ -35,6 +42,8 @@ const ExperienceModal = ({ experience, open, onClose }) => {
         longDescription,
         skills
     } = experience;
+
+    if (!company) return [];
 
     return (
         <Dialog fullScreen={fullscreen} maxWidth="md" fullWidth scroll="body" open={open} onClose={onClose}>
