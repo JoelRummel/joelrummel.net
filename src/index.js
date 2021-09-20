@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import Skills from './pages/skills';
 import ScrollToTop from './components/ScrollToTop';
 import ExperienceModalRenderer from './components/ExperienceModalRenderer';
+import Navbar from './components/Navbar';
 
 const theme = createTheme({
     palette: {
@@ -30,14 +31,19 @@ ReactDOM.render(
             <Router>
                 <ScrollToTop />
                 <Switch>
-                    <Route path="/experiences">
-                        <Experiences />
-                    </Route>
-                    <Route path="/skills">
-                        <Skills />
-                    </Route>
-                    <Route path="/">
+                    <Route exact path="/">
                         <Home />
+                    </Route>
+                    <Route>
+                        <Navbar />
+                        <Switch>
+                            <Route path="/experiences">
+                                <Experiences />
+                            </Route>
+                            <Route path="/skills">
+                                <Skills />
+                            </Route>
+                        </Switch>
                     </Route>
                 </Switch>
                 <ExperienceModalRenderer />

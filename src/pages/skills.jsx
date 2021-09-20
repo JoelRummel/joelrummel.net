@@ -69,7 +69,6 @@ const Skills = () => {
 
     return (
         <Grid container spacing={2} xs={12} style={{ overflow: "hidden" }}>
-            <Navbar />
             <Grid item xs={12}>
                 <Typography variant="h3" align="center" style={{ marginTop: 25 }}>
                     Skills

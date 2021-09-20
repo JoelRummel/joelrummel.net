@@ -53,7 +53,9 @@ const Navbar = () => {
                                 onClose={handleClose}
                             >
                                 {NAVIGATION_BUTTONS.map(({ label, to }) =>
-                                    <MenuItem component={Link} to={to} color="inherit" className={classes.navLink}>{label}</MenuItem>
+                                    <MenuItem component={Link} to={to} onClick={handleClose} color="inherit" className={classes.navLink}>
+                                        {label}
+                                    </MenuItem>
                                 )}
                             </Menu>
                         </div>
