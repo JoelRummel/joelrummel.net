@@ -52,9 +52,9 @@ const Navbar = () => {
                                 open={menuOpen}
                                 onClose={handleClose}
                             >
-                                <MenuItem onClick={handleClose}>Experiences</MenuItem>
-                                <MenuItem onClick={handleClose}>Bio</MenuItem>
-                                <MenuItem onClick={handleClose}>Resume</MenuItem>
+                                {NAVIGATION_BUTTONS.map(({ label, to }) =>
+                                    <MenuItem component={Link} to={to} color="inherit" className={classes.navLink}>{label}</MenuItem>
+                                )}
                             </Menu>
                         </div>
                     }
@@ -64,7 +64,7 @@ const Navbar = () => {
                     {!dropdownMenu && (
                         <>
                             {NAVIGATION_BUTTONS.map(({ label, to }) =>
-                                <Button component={Link} to={to} variant="outlined" color="inherit" className={classes.navLink}>{label}</Button>
+                                <Button component={Link} to={to} color="inherit" className={classes.navLink}>{label}</Button>
                             )}
                         </>
                     )}
