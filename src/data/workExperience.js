@@ -10,8 +10,27 @@ const WORK_EXPERIENCE = [
             I worked directly within the workflow of the team, meaning that I took part in two-week sprints, daily stand-up meetings,\
             and code reviews.
 
-            As part of the Agile workflow, I elected to pick up tasks ranging from writing automated unit tests,\
-            to writing major features such as components of the app's paid subscription model.
+            As part of the Agile workflow, I elected to pick up tasks ranging from writing automated unit tests\
+            to developing major features. One such feature I worked on was the integration of additional payment providers Venmo\
+            and Cash App to go alongside our Stripe integration. These two providers didn't have any formal APIs for direct\
+            integration, so I got to take part in discussions where we found a creative flow for users to upload Venmo/Cash App\
+            QR codes to be automatically attached to invoices. Afterwards, I developed all the front-end interfaces\
+            and logic for the decided flow, alongside a comprehensive automated testing suite. The project made its way through\
+            the code review and testing process as normal, and appeared in the app to customers soon after.
+            
+            Another major undertaking of mine was the addition of an end-to-end Cypress test suite for the entire app. Writing\
+            tests was easy; doing so in a systematic and structured way to test as much of the app's functionality as\
+            possible was more challenging. Another significant hurdle was making sure that the test suite was actively maintained\
+            and updated by the entire team as app development progressed. To this end, I worked on external documentation\
+            describing the chosen structure and practices of the test suite, alongside guidelines for updating the suite in\
+            each pull request. I also led a workshop for the team about writing Cypress tests to help get everyone up to\
+            speed. As a result, the additional testing measures have caught dozens of bugs (some that had been in production\
+            undetected), and are now a permanent part of the team's Agile workflow and review process.
+
+            As I was able to work side-by-side with talented teammates as a full-fledged developer on a high-stakes project,\
+            this experience has become critical to my development as an engineer. Although it was technically an internship,\
+            the role was set in very real workplace conditions, and has given me an invaluable sense of what it's truly like\
+            to work in the software industry.
             `,
         skills: [
             {
@@ -63,8 +82,37 @@ const WORK_EXPERIENCE = [
         startDate: "May 2021",
         endDate: "Aug 2021",
         image: require('../resources/experiences/nbfapp.png'),
-        shortDescription: "I worked as a contractor to build a mobile app for the annual National Blueberry Festival.",
-        longDescription: "Long description here.",
+        shortDescription: "I worked as a contractor to build a scalable mobile application for the annual National Blueberry Festival.",
+        longDescription: `When I heard that the National Blueberry Festival committee was looking for freelance app developers,\
+            I teamed up with my brother to discuss with them their app needs. We then presented to them a detailed proposal\
+            that included app mockups, a technical specification, and a timeline until the Festival and beyond. The proposal was\
+            accepted by the festival committee, and we began our work in May 2021.
+
+            The goal of the app was to keep festival goers up-to-date with all the latest events and information about the four-day\
+            festival. The app included a schedule that automatically identified upcoming events and sorted past events to the bottom,\
+            an interactive map with locations of each events, an alerts screen to notify users of sudden schedule changes, and\
+            much more. As part of a two-person team, my task was to develop the back-end, and to develop most of the front-end\
+            according to the designs created by my brother.
+
+            The back-end needed endpoints to get and refresh the app's schedule, which was simple enough. But it also needed to be\
+            scalable - with thousands of users during the festival and nearly zero users for the rest of the year, it wouldn't\
+            have been cost-efficient to host the back-end services on a traditional server. To solve this problem, we turned to\
+            AWS Lambda, API Gateway, and DynamoDB to create an entirely "serverless", and therefore scalable, back-end service.
+
+            But that wasn't the only major hurdle to clear. In order to keep the underlying schedule data up to date, Festival\
+            officials needed a way to add, remove, and edit events at-will without going through us or having technical knowledge.\
+            To that end, I developed a simple web interface for schedule manipulation. Festival officials could easily change the\
+            schedule, upload images for events, send alerts, and modify the sponsor list through this private interface. All of\
+            these changes would be reflected in the app almost instantly.
+
+            In July 2021, we publicly released the app on the iOS and Android app stores to widespread acclaim from both the Festival\
+            committee and festival goers. Users praised the smooth and intuitive interface, and found the app to be much more useful\
+            in their trip planning than the old paper brochures. Hosting costs stayed within $1 during the festival thanks to\
+            clever back-end design, and dropped to $0 per month afterwards. It was ultimately a great investment for the Festival\
+            committee, as they made significant cost savings through avoiding paper brochures while also enhancing the festival\
+            experience. As for my brother and I, we had the privilege of overseeing the entire software development life cycle\
+            for a major real-world project - an experience that we will not soon forget.
+            `,
         skills: [
             {
                 label: "Front-end",
