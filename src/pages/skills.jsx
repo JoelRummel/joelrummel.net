@@ -68,8 +68,10 @@ const Skills = () => {
                     ))
                 }
             </Grid>
+            <div style={{ width: '100%', position: 'relative' }}>
+                <div ref={headerRef} style={{ position: 'absolute', top: 580 /* Header + 1.5 card height */ }} />
+            </div>
             <ExperienceCardList experiences={experiences} header="Experiences" />
-            <div ref={headerRef} />
         </Grid>
     );
 }
