@@ -162,12 +162,10 @@ const WORK_EXPERIENCE = [
         longDescription: `Over the summer of 2020, I worked at Spencer Manufacturing Inc, a custom firetruck manufacturer. As you can\
             probably imagine, a company in such a niche industry had a lot of niche needs, especially in software - a great opportunity\
             for me to use my skillset and do some problem-solving. They challenged me to create a piece of software that would:
-
-              -Replace their existing timekeeping solution, which was expensive and didn't provide detailed insight
-              -Replace their existing group chat solution, which was poorly suited for per-project communication
-              -Create a coherent and integrated system for issue tracking on each project
-              -Provide custom analyses to answer questions such as "which parts of what projects take us longer than expected?"
-
+            <ul><li>Replace their existing timekeeping solution, which was expensive and didn't provide detailed insight</li>\
+            <li>Replace their existing group chat solution, which was poorly suited for per-project communication</li>\
+            <li>Create a coherent and integrated system for issue tracking on each project</li>\
+            <li>Provide custom analyses to answer questions such as "which parts of what projects take us longer than expected?"</li></ul>\
             The result of this challenge was an app called "Truck Manager" that tackled all of this and more. Built with a\
             React Native front-end and a PHP/MySQL back-end, the app was deployed to iOS, Android, and web browsers.
 
@@ -176,26 +174,22 @@ const WORK_EXPERIENCE = [
             mark tasks as completed, which removes them from the list.
 
             Every element of a truck is integrated with one another, which means that reporting an issue on a task:
-
-              -adds that task to the issue tracker, and
-	          -sends an alert in the chat room, which
-	          -sends a push notification to anyone subscribed to that truck.
-
+            <ul><li>adds that task to the issue tracker, and</li>\
+	        <li>sends an alert in the chat room, which</li>\
+	        <li>sends a push notification to anyone subscribed to that truck.</li></ul>\
             A more complete set of features includes:
-
-	          -User login via email and password, or via four-digit PIN if the device is a registered company tablet
-	          -Accounts that can be one of three different roles (Employee, Supervisor, and Administrator), the latter roles\
-            providing more permissions
-	          -Image upload functionality for chat rooms and for issue tracking
-	          -Tracking of unread chat messages for each individual truck
-	          -"Add Truck" menu that allows a truck to be created simply by uploading a .csv file containing truck details
-	          -Restricted "People" menu that allows administrators to add/remove employees, view and edit employee timesheets\
-            by week, and export employee timesheets that can be imported by QuickBooks
-	          -"Announcement" system that notifies all employees, and forces them to acknowledge the announcement before using the app
-	          -Shared Calendar system that allows tracking of events such as project deadlines and truck delivery dates
-	          -Restricted "analysis" window that describes which tasks took longer or shorter times than expected to complete,\
-            and breaks down who worked for how long on them
-
+            <ul><li>User login via email and password, or via four-digit PIN if the device is a registered company tablet</li>\
+	        <li>Accounts that can be one of three different roles (Employee, Supervisor, and Administrator), the latter roles\
+            providing more permissions</li>\
+	        <li>Image upload functionality for chat rooms and for issue tracking</li>\
+	        <li>Tracking of unread chat messages for each individual truck</li>\
+	        <li>"Add Truck" menu that allows a truck to be created simply by uploading a .csv file containing truck details</li>\
+	        <li>Restricted "People" menu that allows administrators to add/remove employees, view and edit employee timesheets\
+            by week, and export employee timesheets that can be imported by QuickBooks</li>\
+	        <li>"Announcement" system that notifies all employees, and forces them to acknowledge the announcement before using the app</li>\
+	        <li>Shared Calendar system that allows tracking of events such as project deadlines and truck delivery dates</li>\
+	        <li>Restricted "analysis" window that describes which tasks took longer or shorter times than expected to complete,\
+            and breaks down who worked for how long on them</li></ul>\
             In terms of complexity, this project remains one of my biggest undertakings to date. From authentication and\
             timekeeping on the back-end to calendar and chat interfaces on the front-end, this internship gave me a ton of\
             experience in full stack, big-picture software development that I have already been able to make great use of.
