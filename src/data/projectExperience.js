@@ -26,12 +26,30 @@ const PROJECT_EXPERIENCE = [
     },
     {
         company: "College Football Simulator",
-        jobTitle: "Software Engineer Contractor",
+        jobTitle: "CFB-Simulator",
         startDate: "April 2018",
         endDate: "Present",
         image: require('../resources/experiences/cfbsim.png'),
-        shortDescription: "I worked as a contractor to build a mobile app for the annual National Blueberry Festival.",
-        longDescription: "Long description here.",
+        shortDescription: "I built a command-line program in C++ to rapidly simulate every facet of the college football season.",
+        longDescription: `It's the fall of 2020. College football games are getting cancelled left and right, and entire\
+            conferences are calling it quits for the year. Michigan still plays a few games, but it's just not the same\
+            (plus, they suck). In a desperate attempt to fill the void, I created a college football simulator that is immune\
+            to pandemics!
+
+            My college football simulator is an active work-in-progress that aims to simulate every conceivable component of\
+            NCAA football. Everything is written into code, from the 22 men on the field in each play to the 11-person coaching\
+            staffs of all 130 FBS teams. Each recruit has their own unique combination of motivations for choosing a school,\
+            such as proximity to their hometown or how early they'll be able to start. Each player has their own unique skillset\
+            and development rate which is affected by the quality of their coaching staff. Programs can hire, fire, and poach\
+            coaches from other schools depending on their unique expectations for each season. Teams adjust their personnel\
+            selections for each play depending on the current game's context. Every tackle, catch, drop, deflection, etc. is\
+            recorded, and every point scored for or against a team affects both their poll rankings and the public's perception\
+            of their coaching staff. Every. Detail. Programmed.
+
+            Despite its complexity, the program is efficiently written to be able to simulate entire seasons in the span of a\
+            few seconds (hardware dependant). It also features a Google Test suite, although this is very much under active\
+            development and has a long ways to go before reaching a high level of code coverage.
+        `,
         skills: [
             {
                 label: "Tools/skills",
@@ -120,7 +138,18 @@ const PROJECT_EXPERIENCE = [
         startDate: "September 2021",
         image: require('../resources/experiences/thiswebsite.png'),
         shortDescription: "I wrote this website as a React app and deployed it via AWS Amplify.",
-        longDescription: "Long description here",
+        longDescription: `I built this website very carefully to be:
+            <ul><li>Modular, so that I can easily add work experience or projects in the future</li>\
+            <li>Configurable, so that I can do things like add/remove navbar buttons from a single array</li>\
+            <li>Responsive, so that all pages look and feel good at any screen size</li>\
+            <li>Linkable, so that modals like this one have their own URLs, and so users can press their browser\
+            back button to close the modal</li>\
+            <li>Continuously deployed, so that committing to the master branch automatically re-deploys the website</li></ul>\
+            Some of the tools I used to accomplish these goals:
+            <ul><li>Material-UI, to allow easy styling and responsive grid-based setups</li>\
+            <li>React Router, to keep the address bar URL in-sync with the state of the DOM</li>\
+            <li>GitHub and AWS Amplify, to continuously deploy the website without any extra steps</li></ul>
+        `,
         skills: [
             {
                 label: "Front-end",
