@@ -72,7 +72,9 @@ const ExperienceModal = ({ experience = defaultExperience, open, onClose }) => {
                         ))
                     }
                 </div>
-                <Typography variant="body1" style={{ whiteSpace: 'pre-line' }}>{longDescription}</Typography>
+                <Typography variant="body1" style={{ whiteSpace: 'pre-line' }}>
+                    <div dangerouslySetInnerHTML={{ __html: longDescription }} />
+                </Typography>
             </div>
             <IconButton aria-label="close" className={classes.closeButton} onClick={onClose}>
                 <CloseIcon />
