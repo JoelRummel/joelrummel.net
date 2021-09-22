@@ -12,6 +12,7 @@ const PROJECT_EXPERIENCE = [
             
             The Empty Cone was made with Godot and written in Godot's scripting language GDScript. It was built for Windows and
 	        for the web, which means you can play it in your browser <a href="https://acr515.itch.io/ld46">here</a>.
+
             `,
         skills: [
             {
@@ -49,6 +50,7 @@ const PROJECT_EXPERIENCE = [
             Despite its complexity, the program is efficiently written to be able to simulate entire seasons in the span of a\
             few seconds (hardware dependant). It also features a Google Test suite, although this is very much under active\
             development and has a long ways to go before reaching a high level of code coverage.
+
         `,
         skills: [
             {
@@ -78,6 +80,7 @@ const PROJECT_EXPERIENCE = [
     
         Liquid Bacon was made in GameMaker: Studio and written in GameMaker's proprietary scripting language GML.\
         It was built for Windows. (Link to game coming soon)
+
         `,
         skills: [
             {
@@ -103,6 +106,7 @@ const PROJECT_EXPERIENCE = [
             I designed the program in such a way that it ran on a regular schedule, which was freshly determined each day depending on Trump's\
             actual tweeting frequencies. I installed and ran this pair of programs on a remote Ubuntu server in order to ensure\
             that tweets could be posted at any time.
+
             `,
         skills: [
             {
@@ -132,6 +136,7 @@ const PROJECT_EXPERIENCE = [
             Every few days, I would re-run this Java program on my own machine, and it would take 10-15 minutes to gather a large\
             enough dataset to post to the website that I had built. Hundreds of Battle Bay players regularly referenced\
             this site to help them decide which boats or weapons to use for their next duels.
+            
             `,
         skills: [
             {

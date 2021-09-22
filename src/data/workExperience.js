@@ -31,6 +31,7 @@ const WORK_EXPERIENCE = [
             this experience has become critical to my development as an engineer. Although it was technically an internship,\
             the role was set in very real workplace conditions, and has given me an invaluable sense of what it's truly like\
             to work in the software industry.
+
             `,
         skills: [
             {
@@ -112,6 +113,7 @@ const WORK_EXPERIENCE = [
             committee, as they made significant cost savings through avoiding paper brochures while also enhancing the festival\
             experience. As for my brother and I, we had the privilege of overseeing the entire software development life cycle\
             for a major real-world project - an experience that we will not soon forget.
+
             `,
         skills: [
             {
@@ -193,6 +195,7 @@ const WORK_EXPERIENCE = [
             In terms of complexity, this project remains one of my biggest undertakings to date. From authentication and\
             timekeeping on the back-end to calendar and chat interfaces on the front-end, this internship gave me a ton of\
             experience in full stack, big-picture software development that I have already been able to make great use of.
+
             `,
         skills: [
             {
@@ -245,6 +248,7 @@ const WORK_EXPERIENCE = [
         This experience ended as an incredibly rewarding one as I was able to see these tools deployed to hundreds of company\
         analysts and engineers. As this was my first software-related job, it also provided a large, established, and\
         supportive environment for me to begin building important skill sets for my future. 
+        
         `,
         skills: [
             {
