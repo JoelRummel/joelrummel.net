@@ -10,6 +10,7 @@ import ScrollToTop from './components/ScrollToTop';
 import ExperienceModalRenderer from './components/ExperienceModalRenderer';
 import Navbar from './components/Navbar';
 import SetPageTitle from './components/SetPageTitle';
+import Resume from './pages/resume';
 
 const theme = createTheme({
     palette: {
@@ -67,6 +68,10 @@ ReactDOM.render(
                             <Route path="/skills">
                                 <SetPageTitle title="Skills" />
                                 <Skills />
+                            </Route>
+                            <Route path="/resume">
+                                <SetPageTitle title="Resume" />
+                                <Resume />
                             </Route>
                         </Switch>
                     </Route>
