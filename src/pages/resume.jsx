@@ -8,7 +8,7 @@ const Resume = () => (
         maxWidth: 900
     }}>
         <embed
-            src={"/resources/JoelRummelResume.pdf"}
+            src={process.env.PUBLIC_URL + "/resources/JoelRummelResume.pdf"}
             type="application/pdf"
             style={{
                 width: '100%',
