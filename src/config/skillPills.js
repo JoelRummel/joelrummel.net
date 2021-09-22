@@ -34,8 +34,7 @@ const SKILLS_LOOKUP = {
     'Full Stack Development': { type: 'skill' },
     'Video Game Development': { type: 'skill' },
     'Test-Driven Development': { type: 'skill' },
-    'Automated Testing': { type: 'skill' },
-    'SDLC': { type: 'skill' }
+    'Automated Testing': { type: 'skill' }
 };
 
 for (const skillName of Object.keys(SKILLS_LOOKUP)) {
