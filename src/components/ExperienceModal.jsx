@@ -59,20 +59,20 @@ const ExperienceModal = ({ experience = defaultExperience, open, onClose }) => {
                 <div style={{ marginTop: 15, marginBottom: 15 }}>
                     {
                         skills.filter(s => s.label !== "HIDDEN").map(skillSet => (
-                            <div>
+                            <div key={skillSet.label}>
                                 <Typography display="inline" variant="body2" style={{ fontWeight: 'bold' }}>
                                     {skillSet.label}:
                                 </Typography>
                                 {
                                     skillSet.items.map(skill => (
-                                        <SkillPill skill={skill} />
+                                        <SkillPill skill={skill} key={skill} />
                                     ))
                                 }
                             </div>
                         ))
                     }
                 </div>
-                <Typography variant="body1" style={{ whiteSpace: 'pre-line' }}>
+                <Typography variant="body1" component="div" style={{ whiteSpace: 'pre-line' }}>
                     <div dangerouslySetInnerHTML={{ __html: longDescription }} />
                 </Typography>
             </div>

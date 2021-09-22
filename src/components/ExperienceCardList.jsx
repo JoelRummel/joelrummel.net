@@ -27,7 +27,7 @@ const ExperienceCardList = ({ experiences, header }) => {
             <Grid container item justifyContent="center" spacing={3} className={classes.experienceContainer}>
                 {
                     experiences.map(experience => (
-                        <Grid item style={{ display: 'flex' }}>
+                        <Grid item style={{ display: 'flex' }} key={experience.company}>
                             <ExperienceCard experience={experience} />
                         </Grid>
                     ))

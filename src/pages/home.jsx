@@ -98,7 +98,7 @@ const Home = () => {
                     <Grid container justifyContent="center" spacing={2} item xs={12} style={{ paddingBottom: 20 }}>
                         {
                             NAVIGATION_BUTTONS.map(({ label, to }) => (
-                                <Grid item>
+                                <Grid item key={label}>
                                     <Button component={Link} to={to} variant="contained" color="primary">
                                         {label}
                                     </Button>

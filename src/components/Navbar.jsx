@@ -53,7 +53,7 @@ const Navbar = () => {
                                 onClose={handleClose}
                             >
                                 {NAVIGATION_BUTTONS.map(({ label, to }) =>
-                                    <MenuItem component={Link} to={to} onClick={handleClose} color="inherit" className={classes.navLink}>
+                                    <MenuItem component={Link} to={to} onClick={handleClose} color="inherit" className={classes.navLink} key={label}>
                                         {label}
                                     </MenuItem>
                                 )}
@@ -66,7 +66,7 @@ const Navbar = () => {
                     {!dropdownMenu && (
                         <>
                             {NAVIGATION_BUTTONS.map(({ label, to }) =>
-                                <Button component={Link} to={to} color="inherit" className={classes.navLink}>{label}</Button>
+                                <Button component={Link} to={to} color="inherit" className={classes.navLink} key={label}>{label}</Button>
                             )}
                         </>
                     )}
