@@ -1,5 +1,4 @@
 import React from 'react';
-import ResumePDF from '../resources/JoelRummelResume.pdf';
 
 const Resume = () => (
     <div style={{
@@ -9,7 +8,7 @@ const Resume = () => (
         maxWidth: 900
     }}>
         <embed
-            src={ResumePDF}
+            src={require('../resources/JoelRummelResume.pdf').default}
             type="application/pdf"
             style={{
                 width: '100%',
