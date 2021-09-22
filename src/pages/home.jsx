@@ -60,6 +60,11 @@ const useStyles = makeStyles((theme) => ({
             height: '100vh'
         }
     },
+    socialIcons: {
+        [theme.breakpoints.down('sm')]: {
+            marginBottom: 60
+        }
+    },
     socialIcon: {
         maxWidth: 30,
         maxHeight: 30
@@ -111,7 +116,7 @@ const Home = () => {
                             Or you can check out my social accounts:
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} container justifyContent="center" alignItems="center" spacing={2}>
+                    <Grid item xs={12} container justifyContent="center" alignItems="center" spacing={2} className={classes.socialIcons}>
                         <Grid item>
                             <a href="https://www.linkedin.com/in/joel-rummel-985277172/" target="_blank" rel="noreferrer">
                                 <img
