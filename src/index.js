@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Redirect, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { createTheme, CssBaseline, ThemeProvider } from '@material-ui/core';
 import Home from './pages/home';
 import Experiences from './pages/experiences';
@@ -72,6 +72,9 @@ ReactDOM.render(
                             <Route path="/resume">
                                 <SetPageTitle title="Resume" />
                                 <Resume />
+                            </Route>
+                            <Route>
+                                <Redirect to="/" />
                             </Route>
                         </Switch>
                     </Route>
