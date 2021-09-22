@@ -59,6 +59,10 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.up('md')]: {
             height: '100vh'
         }
+    },
+    socialIcon: {
+        maxWidth: 30,
+        maxHeight: 30
     }
 }));
 
@@ -70,7 +74,7 @@ const Home = () => {
         <Grid container style={{ overflow: "hidden" }}>
             <Grid item md={5} xs={12}>
                 <div className={classes.imageContainer}>
-                    <img src={StadiumPose} alt="" className={classes.image} />
+                    <img src={StadiumPose} alt="Me" className={classes.image} />
                     <div className={classes.stripeContainer}>
                         <div className={classes.diagonalStripe} />
                     </div>
@@ -104,12 +108,46 @@ const Home = () => {
                     </Grid>
                     <Grid item xs={12}>
                         <Typography align="center" variant="body1">
+                            Or you can check out my social accounts:
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={12} container justifyContent="center" alignItems="center" spacing={2}>
+                        <Grid item>
+                            <a href="https://www.linkedin.com/in/joel-rummel-985277172/" target="_blank" rel="noreferrer">
+                                <img
+                                    src={require('../resources/social/linkedin.png').default}
+                                    alt="LinkedIn profile"
+                                    className={classes.socialIcon}
+                                />
+                            </a>
+                        </Grid>
+                        <Grid item>
+                            <a href="https://github.com/JoelRummel" target="_blank" rel="noreferrer">
+                                <img
+                                    src={require('../resources/social/github.png').default}
+                                    alt="GitHub profile"
+                                    className={classes.socialIcon}
+                                />
+                            </a>
+                        </Grid>
+                        <Grid item>
+                            <a href="https://stackoverflow.com/users/4052428/joel-rummel" target="_blank" rel="noreferrer">
+                                <img
+                                    src={require('../resources/social/stackoverflow.png').default}
+                                    alt="Stack Overflow profile"
+                                    className={classes.socialIcon}
+                                />
+                            </a>
+                        </Grid>
+                    </Grid>
+                    {/*<Grid item xs={12}>
+                        <Typography align="center" variant="body1">
                             Or you can:
                         </Typography>
                     </Grid>
                     <Grid item>
                         <Button variant="contained" color="secondary">Ask me about my thoughts on the state of Ohio</Button>
-                    </Grid>
+                    </Grid>*/}
                 </Grid>
             </Grid>
         </Grid >
