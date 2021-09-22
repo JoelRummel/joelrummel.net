@@ -95,7 +95,15 @@ const PROJECT_EXPERIENCE = [
         startDate: "Feb 2020",
         image: require('../resources/experiences/trumptweetgenerator.png'),
         shortDescription: "I wrote a C++ program to randomly generate tweets in Donald Trump's style, alongside a Python program to post them to Twitter on a regular schedule.",
-        longDescription: "Long description here.",
+        longDescription: `As a fun side project, I wrote a C++ program to randomly generate tweets that sounded like real Donald\
+            Trump tweets. The program took in data on Trump's own tweets, and took a crude/simple machine learning approach to\
+            outputting tweets that were different while also sounding similar.
+
+            To post these tweets, I wrote a Python program that ran the tweet generator and posted the output using the Twitter API.\
+            I designed the program in such a way that it ran on a regular schedule, which was freshly determined each day depending on Trump's\
+            actual tweeting frequencies. I installed and ran this pair of programs on a remote Ubuntu server in order to ensure\
+            that tweets could be posted at any time.
+            `,
         skills: [
             {
                 label: "Languages",
@@ -112,7 +120,19 @@ const PROJECT_EXPERIENCE = [
         startDate: "???",
         image: require('../resources/experiences/bbstats.jpg'),
         shortDescription: "I wrote a program in Java to manipulate a video game client and visually scrape data, then I hosted the findings on a website.",
-        longDescription: "Long description here.",
+        longDescription: `I used to play a mobile video game called "Battle Bay", where players would equip boats with\
+            weapons and then duel each other on the high seas. A big part of the game was deciding which boat and which weapons to use,\
+            as some were almost certainly better than others. Unfortunately, there were no public APIs available for data such\
+            as boat/weapon use rates or win rates, so I got creative and built something myself.
+
+            I used Java to create a program that would:
+            <ul><li>Manipulate a locally-running game client by simulating screen taps and gestures,</li>\
+            <li>visually scan player profiles to see what boats and weapons they were using, and</li>\
+            <li>automatically upload these findings as JSON data to a custom-built website.</li></ul>\
+            Every few days, I would re-run this Java program on my own machine, and it would take 10-15 minutes to gather a large\
+            enough dataset to post to the website that I had built. Hundreds of Battle Bay players regularly referenced\
+            this site to help them decide which boats or weapons to use for their next duels.
+            `,
         skills: [
             {
                 label: "Languages",
