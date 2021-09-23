@@ -1,7 +1,7 @@
 import { Grid, makeStyles, useTheme, Typography, Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import NAVIGATION_BUTTONS from "../config/navigationButtons";
-import StadiumPose from "../resources/StadiumPose.jpg";
+import StadiumPose from "../resources/StadiumStance.jpg";
 
 const useStyles = makeStyles((theme) => ({
     image: {
@@ -9,6 +9,9 @@ const useStyles = makeStyles((theme) => ({
         objectFit: 'cover',
         [theme.breakpoints.up('md')]: {
             height: '100%'
+        },
+        [theme.breakpoints.down('sm')]: {
+            objectPosition: '0 30%'
         },
         [theme.breakpoints.only('sm')]: {
             height: 400
