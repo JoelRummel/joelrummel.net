@@ -1,5 +1,43 @@
 const WORK_EXPERIENCE = [
     {
+        company: "Amazon Web Services",
+        jobTitle: "Software Development Engineer",
+        startDate: "Jun 2022",
+        endDate: "Current",
+        image: require('../resources/experiences/awslogo.webp'),
+        shortDescription: "I'm working on AWS Transit Gateway, a cutting edge cloud service responsible for routing critical network traffic for some of Amazon's biggest clients.",
+        longDescription: `This is my current full-time job! I work on AWS Transit Gateway, which is best thought of as a router in the cloud.\
+            Our service allows customers to send network traffic to a single central gateway, where they can then route the traffic to a\
+            virtual private cloud, or an on-premise network, or other cloud resources. That means we handle business-critical traffic for\
+            some of Amazon's heaviest clients.\
+
+            This is a relatively new position for me, so I don't have a lot to write about here yet. But I'm working alongside some of the\
+            brightest minds in the software industry on maintaining and developing one of AWS's fastest-growing services, and I'm excited to\
+            see where this takes me!
+        
+        `,
+        skills: [
+            {
+                label: "Tech",
+                items: [
+                    "Java",
+                    "Scala",
+                    "TypeScript",
+                    "Amazon Web Services",
+                    "Git",
+                    "Asana"
+                ]
+            },
+            {
+                label: "Skills",
+                items: [
+                    "Agile Development",
+                    "Automated Testing",
+                ]
+            }
+        ]
+    },
+    {
         company: "Invoice Maker LLC",
         jobTitle: "Software Developer Intern",
         startDate: "Jan 2021",
@@ -40,11 +78,8 @@ const WORK_EXPERIENCE = [
                     "React.js",
                     "Redux",
                     "Material-UI",
-                    "AWS",
-                    "Node.js",
-                    "Lambda",
-                    "DynamoDB",
-                    "Amazon Cognito",
+                    "Amazon Web Services",
+                    "NoSQL",
                     "Jest",
                     "Cypress"
                 ]
@@ -127,12 +162,9 @@ const WORK_EXPERIENCE = [
             {
                 label: "Back-end",
                 items: [
-                    "AWS",
+                    "Amazon Web Services",
                     "Node.js",
-                    "Lambda",
-                    "S3",
-                    "API Gateway",
-                    "DynamoDB"
+                    "NoSQL"
                 ]
             },
             {

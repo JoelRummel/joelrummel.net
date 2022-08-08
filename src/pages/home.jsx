@@ -98,9 +98,9 @@ const Home = () => {
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h6" align="center">
-                            I'm a graduating computer scientist from the University of Michigan.
-                            I've got a wide range of experience in full-stack software development, from
-                            web apps to mobile apps. Find out more about me:
+                            I'm a full-time software engineer based in the DC Metro area, with a bachelor's degree in
+                            Computer Science from the University of Michigan.
+                            Find out more about me:
                         </Typography>
                     </Grid>
                     <Grid container justifyContent="center" spacing={2} item xs={12} style={{ paddingBottom: 20 }}>

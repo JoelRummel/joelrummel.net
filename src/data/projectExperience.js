@@ -186,8 +186,7 @@ const PROJECT_EXPERIENCE = [
             {
                 label: "Tools",
                 items: [
-                    "AWS",
-                    "Amplify",
+                    "Amazon Web Services",
                     "Git",
                     "GitHub",
                 ]

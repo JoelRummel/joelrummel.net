@@ -1,6 +1,6 @@
 const NAVIGATION_BUTTONS = [
     {
-        label: "Experiences",
+        label: "Experience",
         to: "/experiences"
     },
     {
