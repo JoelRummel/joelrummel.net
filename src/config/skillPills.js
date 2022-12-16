@@ -3,6 +3,7 @@ const SKILLS_LOOKUP = {
     'Java': { type: 'language' },
     'Python': { type: 'language' },
     'Scala': { type: 'language' },
+    'Ruby': { type: 'language' },
     'HTML': { type: 'language', end: 'front' },
     'CSS': { type: 'language', end: 'front' },
     'JavaScript': { type: 'language', end: 'front' },

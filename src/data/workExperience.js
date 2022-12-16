@@ -183,7 +183,7 @@ const WORK_EXPERIENCE = [
                 items: [
                     "Amazon Web Services",
                     "Node.js",
-                    "NoSQL"
+                    "DynamoDB"
                 ]
             },
             {
