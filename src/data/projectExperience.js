@@ -48,7 +48,7 @@ const PROJECT_EXPERIENCE = [
             of their coaching staff. Every. Detail. Programmed.
 
             Despite its complexity, the program is efficiently written to be able to simulate entire seasons in the span of a\
-            few seconds (hardware dependant). It also features a Google Test suite, although this is very much under active\
+            few seconds (hardware dependent). It also features a Google Test suite, although this is very much under active\
             development and has a long ways to go before reaching a high level of code coverage.
 
         `,
@@ -184,11 +184,12 @@ const PROJECT_EXPERIENCE = [
                 ]
             },
             {
-                label: "Tools",
+                label: "Tools/Skills",
                 items: [
                     "Amazon Web Services",
                     "Git",
                     "GitHub",
+                    "Continuous Deployment"
                 ]
             },
             {

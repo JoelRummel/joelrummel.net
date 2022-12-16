@@ -4,12 +4,12 @@ const WORK_EXPERIENCE = [
         jobTitle: "Software Development Engineer",
         startDate: "Jun 2022",
         endDate: "Current",
-        image: require('../resources/experiences/awslogo.webp'),
-        shortDescription: "I'm working on AWS Transit Gateway, a cutting edge cloud service responsible for routing critical network traffic for some of Amazon's biggest clients.",
+        image: require('../resources/experiences/awslogo.png'),
+        shortDescription: "I'm working on AWS Transit Gateway, a cutting-edge cloud service responsible for routing critical network traffic for some of Amazon's biggest clients.",
         longDescription: `This is my current full-time job! I work on AWS Transit Gateway, which is best thought of as a router in the cloud.\
-            Our service allows customers to send network traffic to a single central gateway, where they can then route the traffic to a\
+            Our service allows customers to send network traffic to a central hub, where they can then route the traffic to a\
             virtual private cloud, or an on-premise network, or other cloud resources. That means we handle business-critical traffic for\
-            some of Amazon's heaviest clients.\
+            some of Amazon's largest clients.\
 
             This is a relatively new position for me, so I don't have a lot to write about here yet. But I'm working alongside some of the\
             brightest minds in the software industry on maintaining and developing one of AWS's fastest-growing services, and I'm excited to\
@@ -18,21 +18,39 @@ const WORK_EXPERIENCE = [
         `,
         skills: [
             {
-                label: "Tech",
+                label: "Languages",
                 items: [
                     "Java",
                     "Scala",
+                    "JavaScript",
                     "TypeScript",
-                    "Amazon Web Services",
+                    "Python",
+                    "Ruby"
+                ]
+            },
+            {
+                label: "Tech/Tools",
+                items: [
+                    "Distributed Systems",
+                    "DynamoDB",
                     "Git",
-                    "Asana"
+                    "Asana",
                 ]
             },
             {
                 label: "Skills",
                 items: [
                     "Agile Development",
+                    "Continuous Integration",
+                    "Continuous Deployment",
                     "Automated Testing",
+                    "Test-Driven Development"
+                ]
+            },
+            {
+                label: "HIDDEN",
+                items: [
+                    "Amazon Web Services"
                 ]
             }
         ]
@@ -52,7 +70,7 @@ const WORK_EXPERIENCE = [
             to developing major features. One such feature I worked on was the integration of additional payment providers Venmo\
             and Cash App to go alongside our Stripe integration. These two providers didn't have any formal APIs for direct\
             integration, so I got to take part in discussions where we found a creative flow for users to upload Venmo/Cash App\
-            QR codes to be automatically attached to invoices. Afterwards, I developed all the front-end interfaces\
+            QR codes to be automatically attached to invoices. Afterwards, I developed all of the front-end interfaces\
             and logic for the decided flow, alongside a comprehensive automated testing suite. The project made its way through\
             the code review and testing process as normal, and appeared in the app to customers soon after.
             
@@ -79,7 +97,7 @@ const WORK_EXPERIENCE = [
                     "Redux",
                     "Material-UI",
                     "Amazon Web Services",
-                    "NoSQL",
+                    "DynamoDB",
                     "Jest",
                     "Cypress"
                 ]
@@ -97,6 +115,7 @@ const WORK_EXPERIENCE = [
                 label: "Skills",
                 items: [
                     "Agile Development",
+                    "Continuous Integration",
                     "Full Stack Development",
                     "Automated Testing",
                     "Test-Driven Development"

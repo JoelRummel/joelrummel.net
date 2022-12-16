@@ -15,6 +15,8 @@ const SKILLS_LOOKUP = {
     'Google Apps Script': { type: 'tech', end: 'back' },
     'MySQL': { type: 'tech', end: 'back' },
     'NoSQL': { type: 'tech', end: 'back' },
+    'DynamoDB': { type: 'tech', end: 'back' },
+    'Distributed Systems': { type: 'tech', end: 'back' },
     'Redux': { type: 'tech', end: 'front' },
     'Expo': { type: 'tech', end: 'front' },
     'Material-UI': { type: 'tech', end: 'front' },
@@ -24,6 +26,7 @@ const SKILLS_LOOKUP = {
     'Git': { type: 'tool' },
     'GitHub': { type: 'tool' },
     'Jira': { type: 'tool' },
+    'Asana': { type: 'tool' },
     'Figma': { type: 'tool' },
     'Bitbucket': { type: 'tool' },
     'Godot': { type: 'tool' },
@@ -32,7 +35,9 @@ const SKILLS_LOOKUP = {
     'Full Stack Development': { type: 'skill' },
     'Video Game Development': { type: 'skill' },
     'Test-Driven Development': { type: 'skill' },
-    'Automated Testing': { type: 'skill' }
+    'Automated Testing': { type: 'skill' },
+    'Continuous Integration': { type: 'skill' },
+    'Continuous Deployment': { type: 'skill' }
 };
 
 for (const skillName of Object.keys(SKILLS_LOOKUP)) {
